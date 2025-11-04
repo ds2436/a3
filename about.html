@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About | My Portfolio</title>
+    <meta name="description" content="About me: background, education, and interests.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">MyPortfolio</a>
+            <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+            </button>
+            <nav class="primary-nav" id="primary-navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" aria-current="page">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <header class="page-header">
+            <h1>About Me</h1>
+            <p class="lead">A little background about who I am and what I do.</p>
+        </header>
+
+        <section class="grid two" aria-labelledby="background-heading">
+            <div>
+                <h2 id="background-heading">Background</h2>
+                <p>I am a software developer with a passion for building accessible, user-centric applications. I enjoy solving problems, learning new technologies, and collaborating with diverse teams.</p>
+                <h3>Education</h3>
+                <ul>
+                    <li>B.S. in Computer Science — Your University</li>
+                    <li>Certifications — Relevant certificates or courses</li>
+                </ul>
+            </div>
+            <aside>
+                <figure>
+                    <img src="https://via.placeholder.com/500x500" alt="Portrait of Your Name" loading="lazy">
+                    <figcaption>Your Name — Software Developer</figcaption>
+                </figure>
+                <h3>Interests</h3>
+                <ul>
+                    <li>Web performance and accessibility</li>
+                    <li>Open source contributions</li>
+                    <li>UI/UX design</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+            <nav aria-label="Footer">
+                <ul>
+                    <li><a href="about.html" aria-current="page">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
+
+

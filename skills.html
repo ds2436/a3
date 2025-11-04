@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skills | My Portfolio</title>
+    <meta name="description" content="Technical skills and proficiencies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">MyPortfolio</a>
+            <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+            </button>
+            <nav class="primary-nav" id="primary-navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html" aria-current="page">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <header class="page-header">
+            <h1>Skills</h1>
+            <p class="lead">Technologies and tools I work with.</p>
+        </header>
+
+        <section class="grid three" aria-labelledby="tech-heading">
+            <h2 id="tech-heading" class="sr-only">Technical Skills</h2>
+            <article class="card">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML5, Semantic Markup</li>
+                    <li>CSS3, Flexbox, Grid, Responsive Design</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+            </article>
+            <article class="card">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js, Express</li>
+                    <li>REST APIs</li>
+                    <li>Databases (SQL/NoSQL)</li>
+                </ul>
+            </article>
+            <article class="card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Testing (Jest/Playwright)</li>
+                    <li>CI/CD basics</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+            <nav aria-label="Footer">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html" aria-current="page">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
+
+
