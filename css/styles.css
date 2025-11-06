@@ -72,6 +72,9 @@ body {
 .carousel-btn.prev { left: 10px; }
 .carousel-btn.next { right: 10px; }
 .carousel-dots { display: flex; gap: 10px; justify-content: center; padding: 12px; background: rgba(255,255,255,.04); }
+
+/* About page image */
+.about-photo { max-width: 320px; width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
 .carousel-dots button { width: 10px; height: 10px; border-radius: 50%; border: none; background: rgba(255,255,255,.25); }
 .carousel-dots button[aria-selected="true"] { background: var(--primary); }
 
